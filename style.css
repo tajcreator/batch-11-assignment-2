@@ -1,0 +1,262 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap');
+
+.quicksand-font {
+    font-family: "Quicksand", serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.logo-1 {
+    justify-content: center;
+    align-items: center;
+    gap: 11px;
+}
+
+.logo {
+    width: 62px;
+    height: 62px;
+
+}
+
+.school {
+    font-size: 32px;
+
+}
+
+.navbar {
+    max-width: 1160px;
+    margin: 0 auto;
+    /* height: 62px; */
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 50px;
+}
+
+.display-flex {
+    display: flex;
+}
+
+.nav-item {
+    list-style: none;
+    margin: 32px;
+
+}
+
+.ul-link {
+    font-size: 1.25rem;
+    font-weight: 700;
+
+}
+
+.nav-link-1 {
+    text-decoration: none;
+    color: rgb(254, 163, 1);
+}
+
+.nav-link-2 {
+    text-decoration: none;
+    color: rgb(1, 172, 253);
+}
+
+.nav-link-3 {
+    text-decoration: none;
+    color: rgb(5, 212, 223);
+}
+
+.nav-link-4 {
+    text-decoration: none;
+    color: rgb(93, 88, 239);
+}
+
+.btn-primary {
+
+    background-color: rgb(254, 163, 1);
+    color: white;
+    width: 200px;
+    height: 50px;
+    font-size: 1.25rem;
+    padding: 10px;
+    border-radius: 12px;
+    border-style: none;
+}
+
+/* banner section start*/
+.banner-content {
+    max-width: 1160px;
+    height: 575px;
+    margin: 0 auto;
+    justify-content: space-between;
+    align-items: center;
+    gap: 60px;
+    margin-top: 18px;
+    padding: 0;
+}
+
+
+
+.Empowering {
+    font-size: 3.5rem;
+    font-weight: 700px;
+    margin: 24px 0;
+}
+
+.orrange {
+    color: rgb(254, 163, 1);
+}
+
+.skyblue {
+    color: skyblue;
+}
+
+.p-1 {
+    color: rgb(17, 17, 17);
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.btn-2 {
+    background-color: rgb(17, 17, 17);
+    color: white;
+    border-style: none;
+    width: 200px;
+    height: 50px;
+    padding: 10px;
+    border-radius: 12px;
+}
+
+/*  banner section end*/
+
+
+/* Standard section start */
+.standard {
+    background-image: url(assets/bg.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    /* background-attachment: fixed;  */
+    background-size: 100% 100%;
+    width: 100%;
+    height: 880px;
+    margin: 0 auto;
+
+}
+
+.standard-h {
+    text-align: center;
+}
+
+.section-1 {
+
+    max-width: 1160px;
+    margin: 0 auto;
+    height: 482px;
+    top: 200px;
+    bottom: -200px;
+    gap: 28px;
+}
+
+.card-1 {
+    box-sizing: border-box;
+    border: 0.94px solid rgb(222, 245, 255);
+    border-radius: 18.86px;
+    box-shadow: inset 0px 0px 28.3px 0.94px rgba(0, 0, 0, 0.05);
+    background: linear-gradient(180.00deg, rgb(222, 245, 255), rgba(255, 255, 255, 0) 40%), rgb(255, 255, 255);
+
+
+}
+
+
+.card-2 {
+    box-sizing: border-box;
+    border: 0.94px solid rgb(255, 244, 220);
+    border-radius: 18.86px;
+    box-shadow: inset 0px 0px 28.3px 0.94px rgba(0, 0, 0, 0.05);
+    background: linear-gradient(180.00deg, rgb(255, 244, 220), rgba(255, 255, 255, 0) 40%), rgb(255, 255, 255);
+}
+
+.card-3 {
+    box-sizing: border-box;
+    border: 0.94px solid rgb(242, 232, 255);
+    border-radius: 18.86px;
+    box-shadow: inset 0px 0px 28.3px 0.94px rgba(0, 0, 0, 0.05);
+    background: linear-gradient(180.00deg, rgb(238, 225, 255), rgba(255, 255, 255, 0) 40%), rgb(255, 255, 255);
+}
+
+.img {
+
+    margin: 0px 119px;
+    margin-top: 53px;
+    margin-bottom: 32px;
+}
+
+.kinder {
+    text-align: center;
+    font-size: 1.52rem;
+    font-weight: 700;
+    margin-bottom: 33px
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+
+.raleway-font {
+    font-family: "Raleway", serif;
+    font-optical-sizing: auto;
+    font-weight: 200px;
+    font-style: normal;
+}
+
+.pp {
+    color: rgb(128, 128, 128);
+    font-size: 15.09px;
+    font-weight: 500;
+    text-align: center;
+    margin-bottom: 38px;
+}
+
+.read-1 {
+    border-style: none;
+    color: rgb(100, 200, 255);
+    font-weight: 700px;
+    border-style: none;
+    font-size: 1.07rem;
+    background-color: rgb(255, 255, 255);
+    margin: 0px 132px;
+
+}
+
+.read-2 {
+    color: rgb(240, 170, 0);
+    font-size: 1.07rem;
+    font-weight: 700px;
+    border-style: none;
+    font-size: 1.07rem;
+    background-color: rgb(255, 255, 255);
+    margin: 0px 132px;
+}
+
+.read-3 {
+    color: rgb(135, 0, 255);
+    font-size: 1.07rem;
+    font-weight: 700px;
+    border-style: none;
+    font-size: 1.07rem;
+    background-color: rgb(255, 255, 255);
+    margin: 0px 132px;
+}
+
+.pagination a{
+    display: inline;
+    justify-content: center;
+    align-items: center;
+   
+}
+/* .pagination a { 
+   
+    color: rgb(44, 36, 36);
+   
+    padding: 8px 16px;
+    text-decoration: none;} */
+
+
+/* Standard section end */
