@@ -144,6 +144,8 @@
 
 .standard-h {
     text-align: center;
+    font-size: 2.8rem;
+    font-weight: 700;
 }
 
 .section-1 {
@@ -245,18 +247,75 @@
     margin: 0px 132px;
 }
 
-.pagination a{
-    display: inline;
+.pagination{
+     display: flex;
     justify-content: center;
     align-items: center;
-   
+   margin-top: 80px;
+   gap: 10px;
+   margin-bottom: 80px;
 }
-/* .pagination a { 
+.pagination a { 
+    /* width: 16px ;
+    height: 24px; */
+    color: rgb(255, 255, 255);
    
-    color: rgb(44, 36, 36);
-   
-    padding: 8px 16px;
-    text-decoration: none;} */
+    padding: 15px 26px;
+    text-decoration: none;
+    border-radius: 30px;
+    /* Orange */
+    background: rgb(254, 163, 1);
+    font-size: 1.5rem;
+    font-weight: 900;
 
+}
 
 /* Standard section end */
+
+
+/* our stories start */
+.Story-section{
+    /* position: absolute; */
+}
+.section-start{  
+    
+    max-width: 1160px;
+    margin: 0 auto;
+   
+}
+
+.fun-1{  
+    max-width: 540px;
+    border-radius: 16px;
+background: rgb(255, 255, 255);
+}
+
+.fun-h3{
+    color: rgb(0, 0, 0);
+font-size: 24px;
+font-weight: 700;
+}
+
+.November-1{
+    position: relative;
+    width: 175px;
+    height: 48px;
+    font-size: 1.04rem;
+    font-weight: 500;
+    border-radius: 47.93px;
+background: rgb(60, 216, 232);
+ border-style: none;
+ color: white;
+ margin-top: -30px;
+ margin-left: 39px;
+ 
+}
+
+.main-part{
+    margin-left: 20px;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+gap: 25px;
+
+}
+/* our stories end */
